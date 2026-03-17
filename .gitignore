@@ -1,2 +1,14 @@
+# Umgebungsvariablen ausschließen
 .env
 .*env
+
+# Python-Bytecode wird automatisch erzeugt – gehört nicht ins Repository
+__pycache__/
+*.pyc
+
+# Virtuelle Umgebung enthält Bibliotheken, die jeder selbst installiert
+.venv/
+
+# IDE-spezifische Einstellungen sind persönlich, nicht projektbezogen
+.vscode/
+.idea/
