@@ -14,7 +14,7 @@ Starte die App mit:
 python todo.py
 ``` {data-source-line="351"}
 
-```bash
-python todo.py
-``` {data-source-line="416"}
+```
+
+Auch User können die App in der Konsole benützen
 
