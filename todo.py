@@ -30,6 +30,16 @@ def aufgabe_erledigen(aufgabe_id):
             print(f"Aufgabe '{aufgabe['titel']}' als erledigt markiert.")
             return
     print(f"Keine Aufgabe mit ID {aufgabe_id} gefunden.")
+    
+def aufgabe_loeschen(aufgabe_id):
+    """Entfernt eine Aufgabe dauerhaft aus der Liste."""
+    global aufgaben
+    vorher = len(aufgaben)
+    aufgaben = [a for a in aufgaben if a["id"] != aufgabe_id]
+    if len(aufgaben) < vorher:
+        print(f"Aufgabe {aufgabe_id} gelöscht.")
+    else:
+        print(f"Keine Aufgabe mit ID {aufgabe_id} gefunden.")
 
 if __name__ == "__main__":
     aufgabe_hinzufuegen("Git lernen")
