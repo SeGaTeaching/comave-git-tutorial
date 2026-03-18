@@ -2,9 +2,14 @@
 aufgaben = []
 
 def aufgabe_hinzufuegen(titel):
-    # Alles in einer Zeile, um die Struktur zu ändern
-    aufgaben.append({"id": len(aufgaben) + 1, "titel": titel, "erledigt": False})
-    print(f"++ Erfolgreich: '{titel}' wurde notiert.")
+    """Fügt eine neue Aufgabe zur Liste hinzu."""
+    aufgabe = {
+        "id": len(aufgaben) + 1,
+        "titel": titel,
+        "erledigt": False
+    }
+    aufgaben.append(aufgabe)
+    print(f"Aufgabe '{titel}' hinzugefügt.")
 
 def aufgaben_anzeigen():
     if len(aufgaben) == 0: # Andere Abfrage als vorher (if not aufgaben)

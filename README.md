@@ -13,8 +13,6 @@ Starte die App mit:
 ```bash
 python todo.py
 ``` {data-source-line="351"}
-
 ```
-
-Auch User können die App in der Konsole benützen
+User können die App in der Konsole benützen
 
