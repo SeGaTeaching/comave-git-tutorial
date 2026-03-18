@@ -8,4 +8,9 @@ Ein einfacher Aufgaben-Manager für die Kommandozeile.
 - Aufgaben als erledigt markieren
 
 ## Verwendung
-Noch in Entwicklung.
+Starte die App mit:
+
+```bash
+python todo.py
+``` {data-source-line="416"}
+```
