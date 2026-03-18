@@ -22,6 +22,14 @@ def aufgaben_anzeigen():
         status = "✓" if aufgabe["erledigt"] else "○"
         print(f"[{status}] {aufgabe['id']}. {aufgabe['titel']}")
 
+def aufgabe_erledigen(aufgabe_id):
+    """Markiert eine Aufgabe anhand ihrer ID als erledigt."""
+    for aufgabe in aufgaben:
+        if aufgabe["id"] == aufgabe_id:
+            aufgabe["erledigt"] = True
+            print(f"Aufgabe '{aufgabe['titel']}' als erledigt markiert.")
+            return
+    print(f"Keine Aufgabe mit ID {aufgabe_id} gefunden.")
 
 if __name__ == "__main__":
     aufgabe_hinzufuegen("Git lernen")
