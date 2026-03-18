@@ -1,7 +1,6 @@
 # Aufgaben werden als Liste von Dictionaries gespeichert
 aufgaben = []
 
-
 def aufgabe_hinzufuegen(titel):
     """Fügt eine neue Aufgabe zur Liste hinzu."""
     aufgabe = {
@@ -11,7 +10,6 @@ def aufgabe_hinzufuegen(titel):
     }
     aufgaben.append(aufgabe)
     print(f"Aufgabe '{titel}' hinzugefügt.")
-
 
 def aufgaben_anzeigen():
     """Zeigt alle Aufgaben mit Status an."""
@@ -42,6 +40,42 @@ def aufgabe_loeschen(aufgabe_id):
         print(f"Keine Aufgabe mit ID {aufgabe_id} gefunden.")
 
 if __name__ == "__main__":
-    aufgabe_hinzufuegen("Git lernen")
-    aufgabe_hinzufuegen("Demo vorbereiten")
-    aufgaben_anzeigen()
+    print("Willkommen zu deiner To-Do-Liste!")
+    
+    while True:
+        print("\n--- Menü ---")
+        print("1: Aufgabe hinzufügen")
+        print("2: Aufgaben anzeigen")
+        print("3: Aufgabe erledigen")
+        print("4: Aufgabe löschen")
+        print("5: Programm beenden")
+        
+        auswahl = input("Was möchtest du tun? (1-5): ")
+        
+        if auswahl == "1":
+            titel = input("Titel der neuen Aufgabe: ")
+            aufgabe_hinzufuegen(titel)
+            
+        elif auswahl == "2":
+            aufgaben_anzeigen()
+            
+        elif auswahl == "3":
+            try:
+                id_eingabe = int(input("ID der erledigten Aufgabe: "))
+                aufgabe_erledigen(id_eingabe)
+            except ValueError:
+                print("Fehler: Bitte gib eine gültige Zahl als ID ein.")
+                
+        elif auswahl == "4":
+            try:
+                id_eingabe = int(input("ID der zu löschenden Aufgabe: "))
+                aufgabe_loeschen(id_eingabe)
+            except ValueError:
+                print("Fehler: Bitte gib eine gültige Zahl als ID ein.")
+                
+        elif auswahl == "5":
+            print("Programm wird beendet. Auf Wiedersehen!")
+            break
+            
+        else:
+            print("Ungültige Eingabe. Bitte wähle eine Zahl zwischen 1 und 5.")

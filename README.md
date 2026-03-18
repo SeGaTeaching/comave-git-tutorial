@@ -13,8 +13,8 @@ Starte die App mit:
 ```bash
 python todo.py
 ``` {data-source-line="351"}
+```
+User Input für Funktion
 
-```bash
-python todo.py
-``` {data-source-line="416"}
+
 
