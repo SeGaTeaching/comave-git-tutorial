@@ -1,0 +1,40 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "titel": "Death Note",
+      "genre": ["Mystery", "Psychological", "Thriller"],
+      "erscheinungsjahr": 2006,
+      "episoden": 37,
+      "bewertung": 9.0,
+      "beschreibung": "Ein hochintelligenter Schüler findet ein mysteriöses Notizbuch, das jeden tötet, dessen Name darin geschrieben wird."
+    },
+    {
+      "id": 2,
+      "titel": "Attack on Titan",
+      "genre": ["Action", "Dark Fantasy", "Drama"],
+      "erscheinungsjahr": 2013,
+      "episoden": 89,
+      "bewertung": 9.1,
+      "beschreibung": "Die Reste der Menschheit leben hinter riesigen Mauern, um sich vor gigantischen, menschenfressenden Titanen zu schützen."
+    },
+    {
+      "id": 3,
+      "titel": "Chihiros Reise ins Zauberland",
+      "genre": ["Adventure", "Fantasy", "Family"],
+      "erscheinungsjahr": 2001,
+      "episoden": 1,
+      "bewertung": 8.6,
+      "beschreibung": "Ein zehnjähriges Mädchen verläuft sich in einer magischen Geisterwelt und muss einen Weg finden, ihre Eltern zu retten."
+    },
+    {
+      "id": 4,
+      "titel": "Fullmetal Alchemist: Brotherhood",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "erscheinungsjahr": 2009,
+      "episoden": 64,
+      "bewertung": 9.1,
+      "beschreibung": "Zwei Brüder suchen nach dem Stein der Weisen, um ihre Körper wiederherzustellen, nachdem ein alchemistisches Experiment schiefgelaufen ist."
+    }
+  ]
+}
