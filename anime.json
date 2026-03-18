@@ -35,6 +35,15 @@
       "episoden": 64,
       "bewertung": 9.1,
       "beschreibung": "Zwei Brüder suchen nach dem Stein der Weisen, um ihre Körper wiederherzustellen, nachdem ein alchemistisches Experiment schiefgelaufen ist."
+    },
+    {
+      "id": 5,
+      "titel": "One Piece",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "erscheinungsjahr": 1999,
+      "episoden": 1100,
+      "bewertung": 8.9,
+      "beschreibung": "Monkey D. Luffy und seine Piratencrew begeben sich auf die Suche nach dem legendären Schatz One Piece, um der nächste König der Piraten zu werden."
     }
   ]
 }
