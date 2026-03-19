@@ -44,6 +44,11 @@
       "episoden": 1100,
       "bewertung": 8.9,
       "beschreibung": "Monkey D. Luffy und seine Piratencrew begeben sich auf die Suche nach dem legendären Schatz One Piece, um der nächste König der Piraten zu werden."
+    },
+    {
+      "id": 6,
+      "titel": "Naruto",
+      "beschreibung": "Ninjas und Bijuus"
     }
   ]
 }
