@@ -49,6 +49,10 @@
       "id": 6,
       "titel": "Naruto",
       "beschreibung": "Ninjas und Bijuus"
+    },
+    {
+      "titel": "Bleach",
+      "genre": ["Action", "Adventure", "Fantasy"]
     }
   ]
 }
